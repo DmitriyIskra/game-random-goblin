@@ -4,7 +4,7 @@ export default class GenerateRandom {
     this.lastNum = null;
   }
 
-  generator(sizeBoard) {
+  generator(sizeBoard = this.size) {
     return (function* generateNum() {
       yield Math.floor(Math.random() * (sizeBoard + 1));
     }());
@@ -12,7 +12,7 @@ export default class GenerateRandom {
 
   randomNum() {
     return new Promise((resolve) => {
-      const result = this.generator(this.size).next().value;
+      const result = this.generator().next().value;
 
       if (result === this.lastNum) {
         resolve(this.randomNum());
