@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1684333863204" clover="3.2.0">
+  <project timestamp="1684333863204" name="All files">
+    <metrics statements="10" coveredstatements="9" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="5" elements="18" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="randomNum.js" path="I:\Разработка сайтов\Продвижение вперед 22.10.21\Нетолгия\Домашки продвинутый js в браузере\game-random-goblin\src\js\randomNum.js">
+      <metrics statements="10" coveredstatements="9" conditionals="3" coveredconditionals="2" methods="5" coveredmethods="5"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="17" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+      <line num="22" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>

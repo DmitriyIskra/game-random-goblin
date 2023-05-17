@@ -12,5 +12,5 @@ test('test the random numbers are not equal ', async () => {
     const result2 = await generateRandom.randomNum();
     const result3 = await generateRandom.randomNum();
 
-    expect(result !== result2 && result2 !== result3).toBe(true);
+    expect(result !== result2 && result2 !== result3).toBe(true); 
 }) 
