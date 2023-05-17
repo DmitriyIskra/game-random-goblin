@@ -5,4 +5,3 @@ const board = document.querySelector('.wr-board');
 const game = new Game(board);
 
 game.init();
- 

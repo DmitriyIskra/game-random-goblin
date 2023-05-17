@@ -12,7 +12,7 @@ export default class Game {
   init() {
     this.generateRandom = new GenerateRandom(this.boardSize);
     this.rendering();
-  } 
+  }
 
   rendering() {
     (async () => {

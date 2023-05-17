@@ -4,9 +4,9 @@ export default class GenerateRandom {
     this.lastNum = null;
   }
 
-  generator(numMax) {
+  generator(sizeBoard) {
     return (function* generateNum() {
-      yield Math.floor(Math.random() * (numMax + 1));
+      yield Math.floor(Math.random() * (sizeBoard + 1));
     }());
   }
 
@@ -15,11 +15,11 @@ export default class GenerateRandom {
       const result = this.generator(this.size).next().value;
 
       if (result === this.lastNum) {
-        resolve(this.randomNum(this.size));
+        resolve(this.randomNum());
       } else {
         this.lastNum = result;
 
-        resolve(result); 
+        resolve(result);
       }
     });
   }
