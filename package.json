@@ -16,7 +16,7 @@
   },
   "name": "game-random-goblin",
   "version": "1.0.0",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "homepage": "https://dmitriyiskra.github.io/gameGoblin/",
   "scripts": {
     "start": "webpack serve --mode development",
